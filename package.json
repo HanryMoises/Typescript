@@ -1,0 +1,23 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/model/querys/generalquery.ts",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.0"
+  }
+}
